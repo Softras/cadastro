@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Lê o conteúdo do arquivo Markdown
-with open("texto.md", "r", encoding="utf-8") as f:
+with open("conteudo.md", "r", encoding="utf-8") as f:
     conteudo_md = f.read()
     
 # CSS personalizado com Markdown
